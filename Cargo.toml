@@ -2,7 +2,10 @@
 members = [
     "node",
     "pallets/template",
+    "pallets/todo",
     "runtime",
 ]
+
+resolver = "2"
 [profile.release]
 panic = "unwind"
